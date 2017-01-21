@@ -1,0 +1,104 @@
+    body {
+        background: lightgray;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .foto {
+        background-image: url(../foto/fon1.png);
+        background-size: cover;
+        height: 100%;
+        min-height: 1216px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .up {
+        width: 100%;
+        position: relative;
+        height: 30px;
+        background-color: #065291;
+    }
+    
+    .menu {
+        list-style: none;
+        padding: 0;
+        background-color: #065291;
+        height: inherit;
+        position: absolute;
+        right: 0px;
+        margin: 0;
+    }
+    
+    .menu li {
+        float: left;
+        width: 100px;
+        height: inherit;
+        display: block;
+        vertical-align: middle;
+        text-align: center;
+    }
+    
+    .menu .wide {
+        width: 200px;
+
+    }
+    
+    .menu .wide:hover {
+        background: linear-gradient(to bottom, #51b1dc 0%, #2e7ac4 100%);
+    }
+    
+    .menu .wide a:hover span {
+        text-decoration: underline;
+    }
+    
+    .menu .left {
+        border-left: 1px white;
+        margin-right: 50px;
+
+    }
+    
+    .menu .wide:hover {
+        background: linear-gradient(to bottom, #51b1dc 0%, #2e7ac4 100%);
+    }
+    
+    #divider {
+        width: 1px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #divider img {
+        height: 20px;
+        margin-top: 5px;
+    }
+    
+    .menu li a {
+        background: #065291;
+        color: #4eabda;
+        text-decoration: none;
+        width: inherit;
+        display: block;
+        height: inherit;
+        line-height: 30px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 300;
+        vertical-align: middle;
+        text-align: center;
+    }
+    
+    .menu li a:hover {
+        background: #4eabda;
+        color: #f0f0f0;
+    }
+    
+    .fon {
+        width: 730px;
+        height: 780px;
+        background: black;
+        background: rgba(0, 0, 0, 0.6);
+        position: relative;
+        top: 250px;
+        margin: auto;
+    }
