@@ -41,12 +41,7 @@
     }
     
     .menu .wide {
-        width: 200px;
-
-    }
-    
-    .menu .wide:hover {
-        background: linear-gradient(to bottom, #51b1dc 0%, #2e7ac4 100%);
+        width: 150px;
     }
     
     .menu .wide a:hover span {
@@ -54,24 +49,25 @@
     }
     
     .menu .left {
-        border-left: 1px white;
         margin-right: 50px;
-
+        width: 200px;
     }
     
     .menu .wide:hover {
         background: linear-gradient(to bottom, #51b1dc 0%, #2e7ac4 100%);
     }
     
-    #divider {
-        width: 1px;
-        margin-left: 10px;
-        margin-right: 10px;
+    .menu img {
+        float: left;
+        padding-top: 3px;
     }
-
+    
+    #divider {
+        width: 10px;
+    }
+    
     #divider img {
-        height: 20px;
-        margin-top: 5px;
+        height: 25px;
     }
     
     .menu li a {
@@ -101,4 +97,12 @@
         position: relative;
         top: 250px;
         margin: auto;
+    }
+    
+    .right div {
+        width: 730px;
+        border: solid 1px #c8c8c8;
+        height: 50px;
+        margin-top: -1px;
+        display: block;
     }
