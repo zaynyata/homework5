@@ -101,7 +101,7 @@
     
     .top {
         width: 740px;
-        height: 50px;
+        height: 70px;
         background: black;
         background: rgba(0, 0, 0, 0.6);
         position: relative;
@@ -113,7 +113,11 @@
         font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
         vertical-align: middle;
         text-align: center;
-        font-size: 25px;
+        font-size: 35px;
         color: white;
-        padding-top: 10px;
+        padding-top: 15px;
+    }
+    .facebook img {
+        margin-top: 30px;
+        margin-left: 230px; 
     }
