@@ -53,8 +53,12 @@
         width: 210px;
     }
     
-    .menu .wide :hover {
-        background: linear-gradient(to bottom, #51b1dc 0%, #2e7ac4 100%);
+    .menu .wide a:hover {
+        background: -moz-linear-gradient(to bottom, #51b1dc, #2e7ac4 80%);
+        background: -o-linear-gradient(to bottom, #51b1dc, #2e7ac4 80%);
+        background: -webkit-linear-gradient(to bottom, #51b1dc, #2e7ac4 80%);
+        background: -webkit-gradient(to bottom, #51b1dc, #2e7ac4 80%);
+        background: linear-gradient(to bottom, #51b1dc, #2e7ac4 80%);
     }
     
     .menu img {
@@ -84,40 +88,192 @@
         text-align: center;
     }
     
+    .bold {
+        font-weight: bold;
+        letter-spacing: .5px;
+    }
+    
     .menu li a:hover {
         background: #4eabda;
         color: #f0f0f0;
     }
     
-    .fon {
-        width: 740px;
-        height: 750px;
-        background: black;
-        background: rgba(0, 0, 0, 0.6);
-        position: relative;
-        top: 216px;
+    .center {
+        width: 730px;
         margin: auto;
+        position: relative;
+        margin-top: 270px;
+    }
+    
+    .fon {
+        width: 730px;
+        height: 730px;
+        background: rgba(0, 0, 0, 0.6);
+        text-align: center;
     }
     
     .top {
-        width: 740px;
+        width: 730px;
         height: 70px;
-        background: black;
         background: rgba(0, 0, 0, 0.6);
-        position: relative;
-        top: 230px;
-        margin: auto;
     }
     
     .top p {
         font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
         vertical-align: middle;
         text-align: center;
-        font-size: 35px;
+        font-size: 30px;
         color: white;
-        padding-top: 15px;
+        padding-top: 20px;
     }
-    .facebook img {
+    
+    .facebook {
+        margin-top: 2px;
+        padding-top: 30px;
+    }
+    
+    .facebook-a {
+        background: -moz-linear-gradient(to bottom, #405896, #374c8d, #304272);
+        background: -o-linear-gradient(to bottom, #405896, #374c8d, #304272);
+        background: -webkit-linear-gradient(to bottom, #405896, #374c8d, #304272);
+        background: -webkit-gradient(to bottom, #405896, #374c8d, #304272);
+        background: linear-gradient(to bottom, #405896, #374c8d, #304272);
+        border-radius: 4px;
+        border-top: 1px solid #758ab5;
+        /* -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;*/
+        box-sizing: border-box;
+        color: #fbffff;
+        display: block;
+        font-size: 18px;
+        height: 40px;
+        line-height: 35px;
+        margin: auto;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        width: 300px;
+    }
+    
+    .facebook-a::before {
+        background-image: url(../foto/line2.png);
+        background-position: right center;
+        background-repeat: no-repeat;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        content: 'f';
+        display: inline-block;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        height: 35px;
+        left: 0;
+        line-height: 35px;
+        position: absolute;
+        text-align: center;
+        top: 2px;
+        vertical-align: middle;
+        width: 39px;
+    }
+    
+    .facebook-a-bold {
+        font-weight: bold;
+        letter-spacing: .5px;
+    }
+    
+    .facebook-a::after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        content: '\203a';
+        display: inline-block;
+        font-size: 33px;
+        height: 35px;
+        line-height: 30px;
+        position: absolute;
+        right: 26px;
+        vertical-align: middle;
+        width: 10px;
+    }
+    
+    .line {
+        height: 0px;
+        display: inline-block;
+        padding-top: 30px;
+    }
+    
+    .gLine {
+        float: left;
+        width: 115px;
+        height: 2px;
+        background: url(../foto/line1.png);
+        margin-top: 7px;
+    }
+    
+    .ou {
+        color: #666666;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        margin-left: 10px;
+        margin-right: 10px;
+        float: left;
+    }
+    
+    .forma input {
+        margin-top: 40px;
+        color: white;
+        width: 280px;
+        height: 40px;
+        padding: 0;
+        background: linear-gradient(to bottom, #100f0e 0%, #111111 100%);
+        border: none;
+        border-bottom: 1px solid grey;
+        color: white;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        vertical-align: middle;
+        padding-left: 30px;
+        font-size: 18px;
+    }
+    
+    .forma input:hover {
+        background: #065291;
+        box-shadow: 0 0 5px 2px #4eabda;
+        color: white;
+    }
+    
+    .YouBike {
+        padding-top: 30px;
+        font-size: 18px;
+    }
+    
+    .YouBike label {
+        color: white;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        vertical-align: middle;
+        font-size: 18px;
+    }
+    
+    .button input {
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
         margin-top: 30px;
-        margin-left: 230px; 
+    }
+    
+    .button input:hover {
+        background: linear-gradient(to bottom, #51b1dc 0%, #2e7ac4 100%);
+        border: none;
+        color: white;
+    }
+    
+    .alow {
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        margin-top: 30px;
+        line-height: 0.5;
     }
