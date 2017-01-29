@@ -33,7 +33,7 @@
     
     .menu li {
         float: left;
-        width: 110px;
+        width: 100px;
         height: inherit;
         display: block;
         vertical-align: middle;
@@ -198,30 +198,43 @@
         width: 10px;
     }
     
-    .line {
-        height: 0px;
-        display: inline-block;
-        padding-top: 30px;
-    }
-    
-    .gLine {
-        float: left;
-        width: 115px;
-        height: 2px;
-        background: url(../foto/line1.png);
-        margin-top: 7px;
-    }
-    
     .ou {
-        color: #666666;
+        margin-top: 20px;
         font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-        margin-left: 10px;
-        margin-right: 10px;
-        float: left;
+    }
+    
+    ::before::after .ou {
+        position: relative;
+    }
+    
+    .ou::before {
+        content: "";
+        width: 120px;
+        height: 0px;
+        border-top: #666;
+        border-bottom: #000;
+        border-style: solid;
+        position: absolute;
+        margin-top: 5px;
+        border-width: 1px;
+        left: 215px;
+    }
+    
+    .ou::after {
+        content: "";
+        width: 120px;
+        height: 0px;
+        border-top: #666;
+        border-bottom: #000;
+        border-style: solid;
+        position: absolute;
+        margin-top: 5px;
+        border-width: 1px;
+        right: 215px;
     }
     
     .forma input {
-        margin-top: 40px;
+        margin-top: 20px;
         color: white;
         width: 280px;
         height: 40px;
@@ -236,10 +249,9 @@
         font-size: 18px;
     }
     
-    .forma input:hover {
-        background: #065291;
+    .forma input:focus {
         box-shadow: 0 0 5px 2px #4eabda;
-        color: white;
+        background: #065291;
     }
     
     .YouBike {
@@ -261,10 +273,13 @@
         font-size: 18px;
         font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
         margin-top: 30px;
+        background: linear-gradient(to bottom, #51b1dc 0%, #2e7ac4 100%);
+        border: none;
+        color: white;
     }
     
     .button input:hover {
-        background: linear-gradient(to bottom, #51b1dc 0%, #2e7ac4 100%);
+        background: linear-gradient(to bottom, #90bbcc 0%, #065291 100%);
         border: none;
         color: white;
     }
